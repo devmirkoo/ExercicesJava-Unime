@@ -1,0 +1,15 @@
+# CODEOWNERS — devmirkoo/ExercicesJava-Unime
+#
+# @devmirkoo è il maintainer unico di questa repository.
+# Ogni Pull Request che tocca qualsiasi file richiederà la sua review.
+# Documentazione: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Regola globale: @devmirkoo è owner di tutti i file
+*                               @devmirkoo
+
+# File e cartelle sensibili — richiedono esplicitamente review di @devmirkoo
+.github/                        @devmirkoo
+.github/workflows/              @devmirkoo
+SECURITY.md                     @devmirkoo
+.github/dependabot.yml          @devmirkoo
+docs/                           @devmirkoo
